@@ -1,0 +1,29 @@
+Q1) Hoe to RDP in a EC2 fromwindows
+->
+Create a EC2 of a windows machine
+open RDP in your windows machine
+GO to instance 
+copy the Public IP
+Select instance click on connect 
+go to RDP
+Copy the username 
+Click on get password
+upoad the key 
+Get the password
+
+Go to RDP 
+Paste the public IP
+Username Password Rishi/dmc
+
+
+Change usernmae password from computer management
+
+-----------------------------------------------------
+Q2) host a webside
+
+Go to Server management
+Add a role Webserver IIS
+Inatall IIS
+
+Go to C/inetpub/wwwroot
+Get the html file 
