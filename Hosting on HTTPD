@@ -1,0 +1,15 @@
+Q1) Create a HTTPD server and host a website.
+->
+Create a EC2 
+Connect from powershell
+  SSH -i ./file path for .pem-open file Username@PublicIP
+Install HTTPD
+  yum install httpd
+start the server
+  Sudo systemctl start httpd
+Check status
+  Sudo Systemctl Status httpd
+Start by default
+  Sudo Systemctl enable --now httpd
+get the HTML file save it on the location var/www/html/
+copy the public IP and paste on the browser
