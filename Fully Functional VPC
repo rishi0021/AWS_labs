@@ -1,0 +1,23 @@
+Q1) Create a fully functional VPC
+
+->
+Go to VPC
+create a VPC 
+give a private IPv4 CIDR 10.5.0.0/16
+
+create subnets
+eg 10.1.0.0/16
+10.1.1.0/24
+10.1.2.0/24
+
+You will get by default 
+Main RT (rename)(by default the subnet rout gets attached main RT)
+Security Group (Rename)
+
+Create a Internet Gateway
+Attach it to VPC (one gateway only allowed for 1 VPC)
+
+add the internet rout to main RT
+
+create an instance in one subnet and SSH into it 
+
