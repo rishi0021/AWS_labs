@@ -1,0 +1,15 @@
+Private ip 
+10.0.0.0
+172.16.0.0
+-
+-
+172.31.0.0
+
+192.168.0.0
+
+router - connects with different network
+
+switch - use to connect multiple device in single network
+
+home wifi = Soho device
+
