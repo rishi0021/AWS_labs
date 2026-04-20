@@ -1,0 +1,22 @@
+Q1) how to create a connection between 2 VPC
+
+->rules 
+one to one connection VPC
+transit not supported
+cannot be conneced betweent 2 vpc with ip conflicts 
+
+pricing 
+connection free
+billing -data transfer 
+        VPC in same region - free
+        VPC in different region - Billable
+
+
+Create 2 instances in 2 VPCs 
+1 with public IP 
+1 with private IP
+
+go to peering connection
+request a connection
+
+Map the connection on rout table 
